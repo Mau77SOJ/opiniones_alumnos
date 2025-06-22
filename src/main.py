@@ -28,7 +28,7 @@ print(corpus_final)
 vectorizer = CountVectorizer(ngram_range=(2,3), min_df=1)
 X = vectorizer.fit_transform(corpus_final)
 
-# Cálculamos los N-gramas.
+# Mostramos los N-gramas.
 print("N-GRAMAS DE VECTOR")
 print(vectorizer.get_feature_names_out())
 pd.DataFrame(X.sum(axis=0).T,
