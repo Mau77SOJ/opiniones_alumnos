@@ -26,7 +26,8 @@ Se realizó un análisis de un corpus textual compuesto por opiniones de estudia
 
 ## Resultados
 Se identificaron los siguientes patrones dominantes:
-| N-Grama | Frecuencia estimada | 
+|N-Grama | Frecuencia estimada | 
+|---|---|
 | sueño educación | Alta | 
 | educación calidad | Media-Alta | 
 | educación inclusiva | Media | 
